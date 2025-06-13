@@ -54,7 +54,8 @@ function start() {
 		//--- Uploads all the pictures ---//
 	//----------------------------------------//
 	//----------------------------------------//
-
+//We'll need to edit this to replace the sprites at a later point
+	
 	// environment
 	imgDecor = loadImage(new Array("assets/img/parallax_-2.png","assets/img/parallax_-1.png","assets/img/parallax_0.png","assets/img/parallax_1.png","assets/img/parallax_2.png"),endLoad);
 	// Animating the player - finish the RWBY sprites
