@@ -10,9 +10,9 @@
 			* {cursor: none;}
 			
 		</style>
-    
+
+			
     /*this piece of code simply sets the size of the canvas in which the game will appear in. In this case, the canvas will be covering the entire internet page, will have a transparent background, allowing the image PNG or JPEG to appear without any kind of interference.*/
-		
 	<!--- <script src="script.js"></script> --->
 		<script language="JavaScript">
 		
