@@ -414,10 +414,7 @@ randomlyGenerateEnemy = function (){
 			var spdX=5+Math.random()*5;
 			var spdY=5+Math.random()*5;
 			Enemy(id, x, y, spdX, spdY, width, height);
-			
 			}
-			
-		
 			
 			startNewGame();
 			setInterval (update, 40); //this will copy the Update function every milliseconds.
