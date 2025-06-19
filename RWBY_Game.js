@@ -794,8 +794,6 @@ var drawPlateforme=function() {
 		this.x=canvasWidth+imgPlateforme[0].width+scrollX;
 
 	}
-
-
 	
 	//--- Les paramètres sont : (image, x, y) ---//
 	myCanvasContext.save();
