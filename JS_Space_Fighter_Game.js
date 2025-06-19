@@ -356,7 +356,6 @@ function calculCollision(obj1,obj2) //This function is extremely important: this
 						ctx.font = "bold 20px  Bertram";
 						ctx.fillText("Mouse : "+mousePosX+","+mousePosY,0,20);
 						
-				
 				ctx.fillStyle = "red";
 				ctx.font = "bold 25px Bertram";//this could be used to add a score.
 				ctx.fillText("Enemies :"+score,0,50);
