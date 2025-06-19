@@ -379,9 +379,6 @@ function calculCollision(obj1,obj2) //This function is extremely important: this
 						  alert("GAME OVER")
 						  document.location.reload();
 						  }
-						  
-					
-
 			}
 			var mousePosX=-1,mousePosY=-1;
 			function cursormove(event)
