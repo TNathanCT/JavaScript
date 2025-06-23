@@ -10,8 +10,7 @@
 			* {cursor: none;}
 			
 		</style>
-
-			
+	
     /*this piece of code simply sets the size of the canvas in which the game will appear in. In this case, the canvas will be covering the entire internet page, will have a transparent background, allowing the image PNG or JPEG to appear without any kind of interference.*/
 	<!--- <script src="script.js"></script> --->
 		<script language="JavaScript">
@@ -33,7 +32,7 @@
 			var ctx,gameTimer;
 
 /*Here, several things are put forward. The language <script language="JavaScript"> allows the program to know that the following codes will be programmed in Javascript. We then add all the variables that will be appearing in the game. In this case, we type the speed of the gameobjects, the score, the number and the timers.*/ 
-		
+	
 
 function start() //The function start() serves the purpose of setting up the entire game, so the player has the possibility to play without risking encountering a bug in the middle of the playthrough.
 			{
@@ -246,7 +245,6 @@ function calculCollision(obj1,obj2) //This function is extremely important: this
 				{
 					return false; // les deux balls s'éloignent.
 				}
-
 				
 				dx=obj1.x-obj2.x;//this allows you to calculate the angles/speeds of the collisions, and sends them flying back.
 				dy=obj1.y-obj2.y;
