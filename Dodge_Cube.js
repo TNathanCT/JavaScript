@@ -18,7 +18,6 @@ var timer = 20000;
 //All these variables we be used to set the stage of our game, the background, the basic gameplay mechanics, and the font of the text that will be appearing in our game.
 
 
-
 //These next variables give us all the information we will need to work on our player; the HP gauge, the color, the size, the name the player will be given, etc. 
 var player ={
 	x:50,
