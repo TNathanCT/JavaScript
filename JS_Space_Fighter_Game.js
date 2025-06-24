@@ -284,7 +284,6 @@ function calculCollision(obj1,obj2) //This function is extremely important: this
 						dy=obj1.y-obj2.y;
 						dst=Math.sqrt((dx*dx)+(dy*dy));
 					}
-
 					return true;
 				}
 				return false;
